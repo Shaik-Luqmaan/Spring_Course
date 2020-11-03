@@ -1,0 +1,10 @@
+package com.Luqmaan.springconfigdemo;
+
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getDaiyWorkout() {
+		System.out.println("Pratice your backhand shot");
+	}
+
+}

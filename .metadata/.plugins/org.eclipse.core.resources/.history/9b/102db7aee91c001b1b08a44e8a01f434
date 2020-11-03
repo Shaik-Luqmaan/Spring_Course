@@ -1,0 +1,10 @@
+package com.Luqmaan.springconfigdemo;
+
+public class HappyFortuneService implements FortuneService {
+
+	@Override
+	public String dailyFortune() {
+		return "Today you will win the match";
+	}
+
+}

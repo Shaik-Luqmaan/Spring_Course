@@ -1,0 +1,28 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>
+Student Registration Form
+</title>
+</head>
+
+<body>
+
+	<!-- modelAttribute should match model name in controller -->
+	<form:form action="processForm" modelAttribute="student"> 
+	
+		First Name : <form:input path="firstName"/> <!-- Property of Student class, getFirstName() -->
+		Last Name : <form:input path="lastName"/>
+		
+		<br>
+		
+		<input type = "submit" value="Submit"/>	
+	
+	</form:form>
+
+</body>
+
+</html>

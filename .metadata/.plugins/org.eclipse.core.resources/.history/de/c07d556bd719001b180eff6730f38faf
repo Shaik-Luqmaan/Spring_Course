@@ -1,0 +1,28 @@
+package com.Luqmaan.springdemo;
+
+public class CricketCoach implements Coach {
+	
+	private FortuneService fortuneservice;
+	
+	CricketCoach(){
+		System.out.println("Constructor");
+	}
+
+	public void setFortuneService(FortuneService fortuneservice) {
+		System.out.println("Setter method");
+		this.fortuneservice = fortuneservice;
+	}
+
+	@Override
+	public String getDaiyWorkout() {
+	
+		return "Do 20 pushups";
+	}
+
+	@Override
+	public String getDailyFortune() {
+	
+		return fortuneservice.getFortune();
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.Luqmaan.springdemo;
+
+public class BaseballCocach {
+	public String getDaiyWorkout() {
+		return "Spent more time in running practice";
+	}
+
+}

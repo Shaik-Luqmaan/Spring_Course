@@ -1,0 +1,8 @@
+127.0.0.1 - - [02/Nov/2020:09:33:40 +0530] "GET / HTTP/1.1" 404 1083
+127.0.0.1 - - [02/Nov/2020:09:33:41 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 185
+127.0.0.1 - - [02/Nov/2020:09:33:43 +0530] "GET /spring-mvc-demo/student/showForm HTTP/1.1" 200 1959
+127.0.0.1 - - [02/Nov/2020:09:34:12 +0530] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 2091
+127.0.0.1 - - [02/Nov/2020:09:34:24 +0530] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 2124
+127.0.0.1 - - [02/Nov/2020:09:34:36 +0530] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 2118
+127.0.0.1 - - [02/Nov/2020:09:34:47 +0530] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 2117
+127.0.0.1 - - [02/Nov/2020:09:34:52 +0530] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 412

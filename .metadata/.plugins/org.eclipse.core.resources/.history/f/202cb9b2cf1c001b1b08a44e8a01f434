@@ -1,0 +1,28 @@
+package com.Luqmaan.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SpringHelloApp {
+	
+	  public static void main(String[] args) {
+
+		//load configuration files
+		  
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		//retrieve bean from container
+		
+		Coach theCoach = context.getBean("myCoach", Coach.class);
+		
+		//call methods to bean
+		
+		System.out.println(theCoach.getDaiyWorkout());
+		System.out.println(theCoach.getDailyFortune());
+		
+		
+		//close the context
+		
+		context.close();
+	}
+
+}

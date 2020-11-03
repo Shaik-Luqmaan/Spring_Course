@@ -1,0 +1,11 @@
+package com.Luqmaan.springconfigdemo;
+
+@Component("thatTennisCoach")
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getDaiyWorkout() {
+		return "Pratice your backhand shot";
+	}
+
+}

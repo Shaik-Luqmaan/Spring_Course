@@ -1,0 +1,21 @@
+package com.Luqmaan.springconfigdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class RandomFortuneService implements FortuneService {
+	
+	private String[] data = {
+			"Hello",
+			"I am Shaik Luqmaan",
+			"MJCET"
+			
+	}
+
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return "Random Service..";
+	}
+
+}

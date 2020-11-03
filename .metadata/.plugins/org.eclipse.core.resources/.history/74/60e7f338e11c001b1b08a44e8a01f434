@@ -1,0 +1,11 @@
+package com.Luqmaan.springconfigdemo;
+
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getDaiyWorkput() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

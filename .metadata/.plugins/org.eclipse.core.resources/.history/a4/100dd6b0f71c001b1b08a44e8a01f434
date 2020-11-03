@@ -1,0 +1,21 @@
+package com.Luqmaan.springconfigdemo;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.Luqmaan.springconfigdemo")
+public class SportsConfig {
+
+	@Bean
+	public FortuneService sadForutuneService() {
+		return new SadFortuneService();
+	}
+
+	@Bean
+	public Coach swimCoach() {
+		return  new SwimCoach(sadForutuneService());
+	}
+	
+}

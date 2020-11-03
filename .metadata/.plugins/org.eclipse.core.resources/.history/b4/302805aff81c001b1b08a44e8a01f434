@@ -1,0 +1,21 @@
+package com.Luqmaan.springconfigdemo;
+
+public class SwimCoach implements Coach {
+	
+	private FortuneService theFortuneService;
+	
+	SwimCoach(FortuneService theFortuneService){
+		this.theFortuneService = theFortuneService;
+	}
+
+	@Override
+	public String getDaiyWorkout() {
+		return "Swim 5 laps";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		return theFortuneService.getFortune();
+	}
+
+}

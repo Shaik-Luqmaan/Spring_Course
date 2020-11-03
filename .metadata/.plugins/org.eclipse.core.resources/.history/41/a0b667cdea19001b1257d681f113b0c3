@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+Hello to the world of Spring!
+
+<p> Student name= ${message} </p>
+
+
+</body>
+</html>

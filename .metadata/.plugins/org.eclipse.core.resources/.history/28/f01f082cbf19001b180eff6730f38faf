@@ -1,0 +1,16 @@
+package com.Luqmaan.springdemo;
+
+public class BaseballCoach implements Coach{
+	
+	@Override
+	public String getDaiyWorkout() {
+		return "Spent more time in running practice";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

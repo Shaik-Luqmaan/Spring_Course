@@ -1,0 +1,34 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c"%>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title> Student Confirmation Form </title>
+</head>
+
+<body>
+The Student <i>${student.firstName} ${student.lastName}</i> is Confirmed.
+<br><br>
+Student is from ${student.country }
+<br><br>
+Student's Roll Number: ${student.rollNumber }
+<br><br>
+Country Course Code: ${student.courseCode }
+<br><br>
+Country Postal Code: ${student.postalCode }
+<br><br>
+Student's favorite Language is ${student.favouriteLanguage}
+<br><br>
+Student's Operating System
+
+<ul>
+	<c:forEach var="temp" items="${student.operatingSystem}">
+	<li> ${temp} </li>
+	</c:forEach>
+</ul>
+
+</body>
+
+</html>

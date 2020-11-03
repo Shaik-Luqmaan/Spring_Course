@@ -1,0 +1,8 @@
+package com.Luqmaan.springdemo;
+
+public class BaseballCoach implements Coach{
+	public String getDaiyWorkout() {
+		return "Spent more time in running practice";
+	}
+
+}

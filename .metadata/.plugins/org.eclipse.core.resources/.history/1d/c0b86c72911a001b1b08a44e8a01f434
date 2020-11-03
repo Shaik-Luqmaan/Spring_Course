@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title> Student Confirmation Form </title>
+</head>
+
+<body>
+The Student ${student.firstName} ${student.lastName} is Confirmed.
+<br>
+Student is from ${student.country }
+<br>
+Student's favorite Language is ${student.favouriteLanguage}
+
+</body>
+
+</html>
