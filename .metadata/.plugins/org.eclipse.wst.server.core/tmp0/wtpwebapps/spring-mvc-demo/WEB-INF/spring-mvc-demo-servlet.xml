@@ -25,11 +25,11 @@
 	</bean>
 	
 	<!-- Load Custom Error Messages -->
+	
 	<bean id="messageSource"
 	class="org.springframework.context.support.ResourceBundleMessageSource">
 	
 	<property name="basenames" value="resources/messages"/>
-	
 	
 	</bean>
 	
