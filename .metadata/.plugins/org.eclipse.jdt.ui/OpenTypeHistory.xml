@@ -4,4 +4,7 @@
     <typeInfo handle="=Spring-demo/src&lt;com.Luqmaan.springdemo{Coach.java[Coach" modifiers="513" timestamp="1603958999269"/>
     <typeInfo handle="=spring-demo-annotations/src&lt;com.Luqmaan.springconfigdemo{Coach.java[Coach" modifiers="513" timestamp="1604307537339"/>
     <typeInfo handle="=spring-demo-annotations/src&lt;com.Luqmaan.springconfigdemo{FortuneService.java[FortuneService" modifiers="513" timestamp="1604307549775"/>
+    <typeInfo handle="=web-customer-tracker/src&lt;com.Luqmaan.springdemo.dao{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1604584564236"/>
+    <typeInfo handle="=web-customer-tracker/\/home\/luqmaan\/eclipse-workspace-Spring\/web-customer-tracker\/WebContent\/WEB-INF\/lib\/spring-web-5.3.0.jar&lt;org.springframework.http.codec(CodecConfigurer$CustomCodecs.class[CustomCodecs" modifiers="1545" timestamp="1604560882076"/>
+    <typeInfo handle="=web-customer-tracker/src&lt;com.Luqmaan.springdemo.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1604597606284"/>
 </typeInfoHistroy>
